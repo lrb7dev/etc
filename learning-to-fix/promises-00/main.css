@@ -1,0 +1,106 @@
+/*---------- ALL ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+:root {
+    --color001 : #4658bb;
+    --color002 : #920f8c;
+    --color003 : rgb(0, 224, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Kolker Brush', cursive;
+    font-size: 3.5em;
+    text-align: center;
+    word-spacing: .1em;
+    letter-spacing: .2em;
+    color: var(--color001);
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+/*----------- ... -----------------*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 600px;
+    margin: auto;
+}
+
+.content {
+    border: 1px solid rgb(165, 165, 165);
+    background-color: rgb(233, 232, 232);
+    border-radius: 75px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 11px 3px;
+    padding: 25px;
+    margin: auto;
+    width: 90%;
+}
+
+.mark {
+    color: var(--color002);
+    font-weight: 700;
+}
+
+/*------ more editions ------------*/
+
+.emphasis {
+    background-color: #5e0329;
+    color: #fff;
+    font-size: 1em;
+    padding: 5px 15px;
+    border:1px solid #cd5c5c;
+    border-radius: 75px;
+    width: 70%;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.emphasis:hover {
+    background-color: #5e032995;
+    border-color: #cd5c5c30;
+    color: #000000;
+}
+
+/*--- query --*/
+@media (max-width:624px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .emphasis {
+        font-size: small;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 420px;
+    }
+
+}
