@@ -32,7 +32,7 @@ h1 {
 }
 
 .content {
-    width: 56px;
+    width: 70px;
     /* background-color: var(--color002); */
 }
 
@@ -48,7 +48,7 @@ h1 {
 
 .navbar ul li {
     text-align: center;
-    border-radius: 15px;
+    border-radius: 50%;
     margin-bottom: 1.5em;
     margin-left: auto;
     margin-right: auto;
@@ -57,9 +57,16 @@ h1 {
     /* box-shadow: 1px 3px 10px #ffffff; */
 }
 
-.navbar ul li a {
+/* .navbar ul li a {
     text-decoration: none;
     color: #ffffff;
+} */
+
+ion-icon {
+    color: #ffffff;
+    font-size: 1.5em;
+    align-items: center;
+    vertical-align:middle;
 }
 
 .navbar ul li:hover {
@@ -81,18 +88,18 @@ h1 {
 }
 
 .navbar ul li:nth-child(3) {
-    background-color: #d41bec;
+    background-color: #bdc009;
 }
 
 .navbar ul li:nth-child(4) {
-    background-color: #3eec1b;
+    background-color: #1b9fec;
 }
 
 .navbar ul li:nth-child(5) {
-    background-color: #ec1b1b;
+    background-color: #0cc91c;
 }
 
 .navbar ul li:nth-child(6) {
-    background-color: #1be5ec;
+    background-color: #dd9c10;
 }
 
